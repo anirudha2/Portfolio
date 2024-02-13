@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Registration Form</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <h1 align="center"> REGISTRATION FORM </h1>
+    <table border="3px">
+        <tr>
+            <td>Name : </td> <td><input type="text" name="name"></td>
+        </tr>
+        <tr>
+            <td>Roll no. : </td> <td><input type="text" name="roll no"></td>
+        </tr>
+        <tr>
+            <td>User I'd :</td> <td><input type="text" name="user i'd"></td>
+        </tr>
+        <tr>
+            <td>Password :</td> <td><input type="text" name="Password"></td>
+        </tr>
+        <tr>
+            <td>image : </td> <td>upload passport photo<br>
+            <input type="file" name="image"></td> 
+        </tr>
+        <tr>
+            <td>course : </td> <td><select name="Course" id="course">
+                <option value="Select the Course">Select the Course</option>
+                <option value="BCA">B.C.A. ( Bachlore of Computer Application ) </option>
+                <option value="MCA">M.C.A. ( Master's of Computer Application ) </option>
+                <option value="BCCA">B.C.C.A.( Bachlore of Commerce in Computer Application )</option>
+                <option value="MBA">M.B.A.( Master's of Bussiness Administration )</option>
+                <option value="BBA">B.B.A.( Bachlore of Bussiness Administration )</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>gender :</td> <td>
+                <input type="radio" name="gender" value="Male"> Male 
+                <input type="radio" name="gender" value="female">female 
+                <input type="radio" name="gender" value="prefer not to say">prefer not to say</td>
+        </tr>
+        <tr>
+            <td>education : </td> <td>
+                <input type="checkbox" name="check1" value="10"> 10<sup>th</sup>
+                <input type="checkbox" name="check2" value="12">12 <sup>th</sup>
+                <input type="checkbox" name="check3" value="14">under graduation
+                <input type="checkbox" name="check4" value="16">post graduation
+            </td>
+        </tr>
+        <tr>
+            <td>city : </td> <td><select name="city" id="city">
+                <option value="city">Choose your City</option>
+                <option value="city">Amravati</option>
+                <option value="city">Mumbai</option>
+                <option value="city">Nagpur</option>
+                <option value="city">Pune</option>
+                <option value="city">Ralegaon</option>
+                <option value="city">Wardha</option>
+                <option value="city">Yavatmal</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>address : </td> <td><textarea name="address" id="address" cols="30" rows="5"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center"><input type="submit" value="SUBMIT NOW"></td>
+        </tr>
+    </table>
+</body>
+</html>
